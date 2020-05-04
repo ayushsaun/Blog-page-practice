@@ -431,7 +431,7 @@ img {
     .block {
         height: calc(100% - 45%);
         width: calc(100% - 15%);
-        transform: translate(30px, 70px)
+        transform: translate(30px, 60px)
     }
     div > h1 {
         left: 17%;
