@@ -251,14 +251,14 @@ img {
     /* Blog page */
 
     .heading {
-        font-size: 25px;
+        font-size: 27px;
         top: 5px;
         left: 175px;
     }
     .material {
-        font-size: 17px;
-        margin-top: 30px;
-        max-height: 280px;
+        font-size: 25px;
+        margin-top: 60px;
+        max-height: 450px;
     }
 
     /* for about page */
@@ -328,7 +328,7 @@ img {
     /* Blog page */
 
     .heading {
-        font-size: 20px;
+        font-size: 17px;
         top: 5px;
         left: 120px;
     }
@@ -348,7 +348,7 @@ img {
 }
 
 /* for devices with screen 360px or below */
-@media screen and (max-width: 360px){
+@media screen and (max-width: 375px){
 
     /* welcome page */
     header {
@@ -399,25 +399,26 @@ img {
         height: 70px;
     }
     .fullpageimg {
-        height: 120%;
+        height: 140%;
     }
 
     /* Blog page */
 
     .heading {
-        font-size: 15px;
+        font-size: 14px;
         top: 5px;
         left: 120px;
     }
     .material {
         font-size: 15px;
         margin-top: 30px;
-        max-height: 280px;
+        max-height: 235px;
     }
 
     /* for about page */
 
     .about {
-        left: 110px;
+        left: 105px;
+        font-size: 15px;
     }
 }
